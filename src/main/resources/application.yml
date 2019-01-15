@@ -1,0 +1,16 @@
+server:
+  port: 8089
+  
+  
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/donpaulcj/spring-cloud-config-server-db.git
+          #username: 
+          #password: 
+          search-paths:
+          - DataServ*
+
+  
